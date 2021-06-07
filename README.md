@@ -1,4 +1,5 @@
 * callback -> we pass function as  a parameter/argument to other functions
+### We can say that callback is *PARADIGMS*
 * we can see use of callback in 2 ways:
     * Events(browser)
     * Asynchronous
