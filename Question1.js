@@ -1,9 +1,8 @@
 // ONLY FIRST ONE WILL RUN
+// TELL THE OUTPUT
 let promise = new Promise(function executor(resolve,reject){
             reject("Rejected 1!");
-            //IGNORE
-            resolve("Resolved !");
-            console.log(1);
+            
             
 });
 
