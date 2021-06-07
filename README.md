@@ -52,3 +52,9 @@
 
 * .then(), will only run when the resolve is called. If it have more .then() it will wait in queue in Node API then it will run (Promise3.js)
 * If you apply .then() on resolved promise, it will execute
+
+*** 
+### Promise in loop *parallel*
+* So,basically in every iteration the next iterative pending-promise will not wait for previous iterative pending-promise.
+* They will all run in parallel
+* They will get resolved randomly.
